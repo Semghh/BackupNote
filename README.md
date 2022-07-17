@@ -40,3 +40,45 @@ this is a example
   java -jar D:\localGithubRespository\BackupNote\target\copyNoteUtil.jar
   pause
 
+
+```
+
+## Using 计划任务
+
+使用`windows OS`的计划任务，可以实现自动定时运行 .bat 脚本
+
+
+
+按照一下步骤定制一个 计划任务
+
+
+
+1.打开 任务计划程序，点击创建任务
+
+![image-20220717144331608](README.assets/image-20220717144331608.png)
+
+
+
+2. 创建任务并命名
+
+![image-20220717143709128](README.assets/image-20220717143709128.png)
+
+
+
+
+
+3. 创建一个触发器
+
+   ![image-20220717143951870](README.assets/image-20220717143951870.png)
+
+
+
+4. 新建一个操作，并引用.bat
+
+   
+
+![image-20220717144039578](README.assets/image-20220717144039578.png)
+
+5. 完成
+
+![image-20220717144252805](README.assets/image-20220717144252805.png)
